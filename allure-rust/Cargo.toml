@@ -1,6 +1,6 @@
 [package]
 name = "allure-rust"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 description = "Allure test report generation library for Rust"
 license = "MIT"
@@ -9,10 +9,10 @@ repository = "https://github.com/KirillFurtikov/allure-rust"
 homepage = "https://github.com/KirillFurtikov/allure-rust"
 keywords = ["allure", "testing", "test-report", "test-framework"]
 categories = ["development-tools::testing"]
-readme = "README.md"
+readme = "../README.md"
 
 [dependencies]
-allure-rust-core = { path = "../allure-rust-core", version = "0.1.0" }
+allure-rust-core = "0.0.1"
 
 [dev-dependencies]
-allure-rust-core = { path = "../allure-rust-core" }
+allure-rust-core = "0.0.1"

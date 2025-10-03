@@ -1,10 +1,16 @@
 [package]
 name = "allure-rust-core"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
+license = "MIT"
+authors = ["Kirill Furtikov"]
+homepage = "https://github.com/KirillFurtikov/allure-rust"
+keywords = ["allure", "testing", "test-report", "test-framework"]
+categories = ["development-tools::testing"]
+description = "Allure test report generation library for Rust"
 
 [dependencies]
-allure-rust-macros = { path = "../allure-rust-macros" }
+allure-rust-macros = "0.0.1"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 uuid = { version = "1.3", features = ["v4", "serde"] }
