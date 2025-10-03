@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "allure-rust",
+    "allure-rust-core",
+    "allure-rust-macros",
+    "example"
+, "test-suite"]
+resolver = "2"
